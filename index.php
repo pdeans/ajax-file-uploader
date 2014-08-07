@@ -53,7 +53,6 @@
                             failed.innerHTML = '<p>The following files failed to upload, please check file extension and/or size:</p>'
                         }
 
-
                         for(x = 0; x < data.succeeded.length; x++) {
                             anchor = document.createElement('a');
                             anchor.href = 'uploads/' + data.succeeded[x].file;
